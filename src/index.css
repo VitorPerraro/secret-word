@@ -1,0 +1,29 @@
+html, body {
+   height: 100%;
+}
+body {
+   background-image: url("./assets/background.jpg");
+   background-size: cover;
+   background-position: center;
+   color: #ffffff;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+}
+button {
+   background: #fffcb0;
+   color: #006b3a;
+   padding: 0 45px;
+   border: 2px solid #fff;
+   border-radius: 25px;
+   height: 50px;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 1em;
+   cursor: pointer;
+   transition: .4s;
+}
+button:hover {
+   opacity: 1;
+}
